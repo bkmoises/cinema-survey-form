@@ -69,19 +69,25 @@ form {
   padding-left: 15px;
   background: #fff;
   height: 2.4em;
-  width: 96%;
+  width: 98%;
   margin-top: 7px;
   margin-bottom: -9px;
   border: none;
   border-radius: 5px;
 }
 
+.frequency p {
+  margin-bottom: 5px;
+}
+
 .frequency label {
   display: block;
+  margin-bottom: 6px;
 }
 
 .frequency input {
   margin: 0;
+  margin-right: 5px
 }
 
 
