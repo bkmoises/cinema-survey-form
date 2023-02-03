@@ -41,7 +41,8 @@ form {
 .basic-datas, 
 .frequency, 
 .favorite, 
-.kind {
+.kind,
+.comments {
   width: 100%;
   box-sizing: border-box;
   text-align: left;
@@ -83,7 +84,7 @@ p {
   margin-bottom: 5px;
 }
 
-.frequency label, .kind label {
+.frequency label, .kind label, .comments label {
   display: block;
   margin-bottom: 6px;
 }
@@ -99,6 +100,15 @@ p {
 
 .kind {
   margin-top: 14px;
+}
+
+textarea {
+  display: block;
+  width: 95%;
+  padding-left: 15px;
+  padding-top: 8px;
+  resize: vertical;
+  font-size: 18px;
 }
 
 
