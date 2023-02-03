@@ -38,7 +38,10 @@ form {
   font-size: 18px;
 }
 
-.basic-datas, .frequency, .favorite{
+.basic-datas, 
+.frequency, 
+.favorite, 
+.kind {
   width: 100%;
   box-sizing: border-box;
   text-align: left;
@@ -62,7 +65,7 @@ form {
   padding-left: 15px;
 }
 
-.basic-datas select, .favorite select {
+select {
   font-size: 16px;
   color: #222;
   display: block;
@@ -76,16 +79,16 @@ form {
   border-radius: 5px;
 }
 
-.frequency p {
+p {
   margin-bottom: 5px;
 }
 
-.frequency label {
+.frequency label, .kind label {
   display: block;
   margin-bottom: 6px;
 }
 
-.frequency input {
+.frequency input, .kind input {
   margin: 0;
   margin-right: 5px;
 }
@@ -93,6 +96,11 @@ form {
 .favorite {
   margin-top: 8px;
 }
+
+.kind {
+  margin-top: 14px;
+}
+
 
 fieldset {
   border: none;
