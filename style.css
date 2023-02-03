@@ -6,6 +6,12 @@ html {
   color: #fff;
 }
 
+
+::placeholder {
+  font-size: 16px;
+  color: #424443;
+}
+
 body {
   background: url("1.jpg") no-repeat center center fixed;
 }
@@ -21,26 +27,56 @@ body {
   font-weight: 100;
   margin-top: -20px;
   font-style: italic;
+  text-shadow: 1px 1px 1px black;
 }
 
 form {
   width: 40%;
   margin: 0 auto;
   background: #00000060;
-  border: 1px solid black;
-  border-radius: 3px;
-  font-size: 20px;
+  border: 1px solid #303030;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.basic-datas {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: left;
+  padding-left: 40px;
+  padding-top: 10px;
+}
+
+.basic-datas label {
+  display: block;
+  margin-top: 30px;
 }
 
 .basic-datas input {
+  font-size: 16px;
   display: block;
-  margin: 0 auto;
-  font-size: 18px;
-  width: 92%;
-  height: 2em;
-  border: none;
+  width: 95%;
+  height: 2.2em;
   margin-top: 7px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
 }
+
+.basic-datas select {
+  font-size: 16px;
+  color: #222;
+  display: block;
+  padding-left: 15px;
+  background: #fff;
+  height: 2.4em;
+  width: 96%;
+  margin-top: 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+
 
 fieldset {
   border: none;
