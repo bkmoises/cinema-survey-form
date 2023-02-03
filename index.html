@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Survey form</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width-device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 id="title">Cinema Survey Form</h1>
+  <p id="description">Thank you for taking the time to help us improve the platform </p>
+  <form id="survey-form" action="#" method="POST">
+    <label id="name-label" for="email"> Email<input id="email" type="email" name="email"
+        placeholder="Enter your Email"></label>
+    <label id="email-label" for="name"> Name<input id="name" type="text" name="name"
+        placeholder="Enter your name"></label>
+    <label id="number-label" for="number"> Age<input id="number" type="number" name="number" placeholder="Age" min="13"
+        max="99"></label>
+    <label for="dropdown">Which option best describes your current role?
+      <select name="dropdown" id="dropdown">
+        <option name="frequency" value="" disabled selected>Select current role</option>
+        <option name="frequency" value="1">Student</option>
+        <option name="frequency" value="2">Full time job</option>
+        <option name="frequency" value="3">Full time leaner</option>
+        <option name="frequency" value="4">Prefer not to say</option>
+        <option name="frequency" value="5">Other</option>
+      </select>
+    </label>
+    <fieldset>
+      <label for="always"><input type="radio" id="always" name="frequency" value="1"> Always</label>
+      <label for="sometimes"><input type="radio" id="sometimes" name="frequency" value="2"> Sometimes</label>
+      <label for="bit"><input type="radio" id="bit" name="frequency" value="3"> Little bit</label>
+      <label for="never"><input type="radio" id="never" name="frequency" value="4"> Never</label>
+    </fieldset>
+    <label for="favorite">What is your favorite type of show?
+      <select name="favorite" id="favorite">
+        <option name="favorite" value="" selected disabled>Select an option</option>
+        <option name="favorite" value="1">Film</option>
+        <option name="favorite" value="2">Serie</option>
+        <option name="favorite" value="3">Novel</option>
+      </select>
+    </label>
+    <fieldset>
+      <label for="">What types of shows do you like to watch? (Check all that apply)
+        <label for="action"><input id="action" type="checkbox" name="action" value="1"> Action</label>
+        <label for="adventure"><input id="adventure" type="checkbox" name="adventure" value="1"> Adventure</label>
+        <label for="horror"><input id="horror" type="checkbox" name="horror" value="1"> Horror</label>
+        <label for="thriller"><input id="thriller" type="checkbox" name="thriller" value="1"> Thriller</label>
+        <label for="drama"><input id="drama" type="checkbox" name="drama" value="1"> Drama</label>
+        <label for="comedy"><input id="cop" type="checkbox" name="comedy" value="1"> Comedy</label>
+        <label for="cop"><input id="cop" type="checkbox" name="cop" value="1"> Cop</label>
+        <label for="romance"><input id="romance" type="checkbox" name="romance" value="1"> Romance</label>
+      </label>
+    </fieldset>
+    <label for="textarea">Any comments?</label>
+    <textarea id="textarea" name="textarea" rows="8" cols="15"></textarea>
+    <input id="submit" type="submit" value="submit">
+  </form>
+</body>
+
+</html>
