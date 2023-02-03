@@ -1,18 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400&display=swap');
+
 html {
   margin: 0;
   padding: 0;
   font-family: Poppins, sans-serif;
+  font-size: 18px;
   color: #fff;
+}
+
+body {
+  background: url("1.jpg") no-repeat center center fixed;
+}
+
+p {
+  margin-bottom: 5px;
+}
+
+fieldset {
+  border: none;
+}
+
+form {
+  width: 40%;
+  margin: 0 auto;
+  background: #00000060;
+  border: 1px solid #303030;
+  border-radius: 4px;
+}
+
+select {
+  font-size: 16px;
+  color: #222;
+  display: block;
+  padding-left: 15px;
+  background: #fff;
+  height: 2.4em;
+  width: 96%;
+  margin-top: 7px;
+  margin-bottom: -9px;
+  border: none;
+  border-radius: 5px;
+}
+
+textarea {
+  display: block;
+  width: 93%;
+  padding-left: 15px;
+  padding-top: 8px;
+  resize: vertical;
+  font-size: 18px;
 }
 
 ::placeholder {
   font-size: 16px;
   color: #424443;
-}
-
-body {
-  background: url("1.jpg") no-repeat center center fixed;
 }
 
 .head {
@@ -27,15 +68,6 @@ body {
   margin-top: -20px;
   font-style: italic;
   text-shadow: 1px 1px 1px black;
-}
-
-form {
-  width: 40%;
-  margin: 0 auto;
-  background: #00000060;
-  border: 1px solid #303030;
-  border-radius: 4px;
-  font-size: 18px;
 }
 
 .basic-datas, 
@@ -66,24 +98,6 @@ form {
   padding-left: 15px;
 }
 
-select {
-  font-size: 16px;
-  color: #222;
-  display: block;
-  padding-left: 15px;
-  background: #fff;
-  height: 2.4em;
-  width: 96%;
-  margin-top: 7px;
-  margin-bottom: -9px;
-  border: none;
-  border-radius: 5px;
-}
-
-p {
-  margin-bottom: 5px;
-}
-
 .frequency label, .kind label, .comments label {
   display: block;
   margin-bottom: 6px;
@@ -102,15 +116,6 @@ p {
   margin-top: 3px;
 }
 
-textarea {
-  display: block;
-  width: 93%;
-  padding-left: 15px;
-  padding-top: 8px;
-  resize: vertical;
-  font-size: 18px;
-}
-
 #submit {
   color: #FFF;
   font-size: 18px;
@@ -127,8 +132,4 @@ textarea {
 .clue {
   font-size: 14px;
   font-weight: 300;
-}
-
-fieldset {
-  border: none;
 }
