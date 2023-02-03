@@ -104,13 +104,25 @@ p {
 
 textarea {
   display: block;
-  width: 95%;
+  width: 93%;
   padding-left: 15px;
   padding-top: 8px;
   resize: vertical;
   font-size: 18px;
 }
 
+#submit {
+  color: #FFF;
+  font-size: 18px;
+  width: 96%;
+  height: 2.6em;
+  margin-top: 25px;
+  margin-bottom: 60px;
+  border: none;
+  border-radius: 0;
+  background: #535554;
+  cursor: pointer;
+}
 
 fieldset {
   border: none;
