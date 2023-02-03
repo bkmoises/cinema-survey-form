@@ -38,7 +38,7 @@ form {
   font-size: 18px;
 }
 
-.basic-datas, .frequency{
+.basic-datas, .frequency, .favorite{
   width: 100%;
   box-sizing: border-box;
   text-align: left;
@@ -54,7 +54,7 @@ form {
 .basic-datas input {
   font-size: 16px;
   display: block;
-  width: 95%;
+  width: 93%;
   height: 2.2em;
   margin-top: 7px;
   border: none;
@@ -62,14 +62,14 @@ form {
   padding-left: 15px;
 }
 
-.basic-datas select {
+.basic-datas select, .favorite select {
   font-size: 16px;
   color: #222;
   display: block;
   padding-left: 15px;
   background: #fff;
   height: 2.4em;
-  width: 98%;
+  width: 96%;
   margin-top: 7px;
   margin-bottom: -9px;
   border: none;
@@ -87,11 +87,12 @@ form {
 
 .frequency input {
   margin: 0;
-  margin-right: 5px
+  margin-right: 5px;
 }
 
-
-
+.favorite {
+  margin-top: 8px;
+}
 
 fieldset {
   border: none;
