@@ -12,22 +12,24 @@
   <h1 id="title">Cinema Survey Form</h1>
   <p id="description">Thank you for taking the time to help us improve the platform </p>
   <form id="survey-form" action="#" method="POST">
-    <label id="name-label" for="email"> Email<input id="email" type="email" name="email"
-        placeholder="Enter your Email"></label>
-    <label id="email-label" for="name"> Name<input id="name" type="text" name="name"
-        placeholder="Enter your name"></label>
-    <label id="number-label" for="number"> Age<input id="number" type="number" name="number" placeholder="Age" min="13"
-        max="99"></label>
-    <label for="dropdown">Which option best describes your current role?
-      <select name="dropdown" id="dropdown">
-        <option name="frequency" value="" disabled selected>Select current role</option>
-        <option name="frequency" value="1">Student</option>
-        <option name="frequency" value="2">Full time job</option>
-        <option name="frequency" value="3">Full time leaner</option>
-        <option name="frequency" value="4">Prefer not to say</option>
-        <option name="frequency" value="5">Other</option>
-      </select>
-    </label>
+    <fieldset>
+      <label id="name-label" for="email"> Email<input id="email" type="email" name="email"
+          placeholder="Enter your Email" required></label>
+      <label id="email-label" for="name"> Name<input id="name" type="text" name="name" placeholder="Enter your name"
+          required></label>
+      <label id="number-label" for="number"> Age<input id="number" type="number" name="number" placeholder="Age"
+          min="13" max="99"></label>
+      <label for="dropdown">Which option best describes your current role?
+        <select name="dropdown" id="dropdown">
+          <option name="frequency" value="" disabled selected>Select current role</option>
+          <option name="frequency" value="1">Student</option>
+          <option name="frequency" value="2">Full time job</option>
+          <option name="frequency" value="3">Full time leaner</option>
+          <option name="frequency" value="4">Prefer not to say</option>
+          <option name="frequency" value="5">Other</option>
+        </select>
+      </label>
+    </fieldset>
     <fieldset>
       <label for="always"><input type="radio" id="always" name="frequency" value="1"> Always</label>
       <label for="sometimes"><input type="radio" id="sometimes" name="frequency" value="2"> Sometimes</label>
