@@ -6,7 +6,6 @@ html {
   color: #fff;
 }
 
-
 ::placeholder {
   font-size: 16px;
   color: #424443;
@@ -39,7 +38,7 @@ form {
   font-size: 18px;
 }
 
-.basic-datas {
+.basic-datas, .frequency{
   width: 100%;
   box-sizing: border-box;
   text-align: left;
@@ -72,9 +71,19 @@ form {
   height: 2.4em;
   width: 96%;
   margin-top: 7px;
+  margin-bottom: -9px;
   border: none;
   border-radius: 5px;
 }
+
+.frequency label {
+  display: block;
+}
+
+.frequency input {
+  margin: 0;
+}
+
 
 
 
