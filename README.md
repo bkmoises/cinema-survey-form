@@ -10,7 +10,7 @@
 
 This is one of the projects required to obtain the freeCodeCamp Responsive Web Design certification.
 
-This project has an academic objective in order to consolidate my knowledge in HTML and CSS.
+This project has an academic objective in order to consolidate my knowledge in **HTML** and **CSS**.
 
 In this project, it was requested to create a survey to collect data from users.
 The project model was free to choose, so I chose the cinema theme for this project.
