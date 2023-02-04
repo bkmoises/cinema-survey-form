@@ -8,7 +8,7 @@
 
 ## About
 
-This is one of the projects required to obtain the freeCodeCamp Responsive Web Design certification.
+This is one of the projects required to obtain the [freeCodeCamp](freecodecamp.org/) Responsive Web Design certification.
 
 This project has an academic objective in order to consolidate my knowledge in **HTML** and **CSS**.
 
